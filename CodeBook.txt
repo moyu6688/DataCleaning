@@ -1,0 +1,14 @@
+The "ActivityLable" column shows the class lables for the activities, from 1 to 6.
+The "ActivityNames" column shows the activities, which are WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS, SITTING, STANDING, LAYING, which are corresponding to activity lables 1 to 6.   
+The "Subject" column shows the subject ID of the volunteers.  
+
+
+For the variables columns (column 4 to 69): 
+The 't' and 'f' at the from of the variables denote that Jerk signals and the Fast Fourier Transform (FFT) of the signals. 
+The 'Acc' and 'Gyro' donate the signals from the accelerometer and gyroscope.The acceleration signal is in standard gravity unit 'g'. The unit of the angular velocity vector measured by the gyroscope is radians/second. 
+The 'BodyAcc' and 'GravityAcc' donate the separtation of the acceleration signal into body and gravity acceleration signals. 
+The 'Mean' and 'Std' donate the mean and standard deviation of the the measurements. 
+'X', 'Y', and 'Z' at the end of the variables denote the 3-axial signals in the X, Y and Z directions.
+
+
+

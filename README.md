@@ -1,6 +1,10 @@
 # DataCleaning
-This code tidy the datasets from Human Activity Recognition database record by the Samsung Galaxy S smartphone. The recordings are from 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
+This project tidies the datasets from Human Activity Recognition database record by the Samsung Galaxy S smartphone. The recordings are from 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 
+# Data Source 
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+# Process
 ## Step 1 Building one dataset combining the training and the test sets
 The code first read in the the test dataset and its corresponding subjact and activity lables, and generate a merge file containing all the information. The column names are assigned using the feature information. Then a merged dataset for the training data is created in the same way. Then the two dataframes are merged into one dataframe. 
 
@@ -25,3 +29,8 @@ The key function used in this step is gsub().
 This code group the earlier dataset set by subject and activity names, and the get the mean of all the variables. 
 
 The key functions used in this step are %>%, group_by(), and summarize_all() from the library dplyr. 
+
+# License:
+Use of this dataset in publications must be acknowledged by referencing the following publication 
+
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
